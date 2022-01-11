@@ -1,4 +1,4 @@
-# Defaulters maching learning classifier using Python
+# Loan classification machine learning using Python
 
 This dataset is downloaded from Kaggle and belongs to a Hackathon organized by "Univ.AI".
 
