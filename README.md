@@ -3,9 +3,11 @@
 This dataset is downloaded from Kaggle and belongs to a Hackathon organized by "Univ.AI". An organization wants to predict who possible defaulters are for the consumer loans product. They have data about historic customer behavior based on what they have observed. Hence when they acquire new customers they want to predict who is riskier and who is not. The task is to predict possible defaulters for the consumer loans product based on the customer historic behavior with possible defaulters with Risk_Flag == 1 and 0 for not possible for being a defaulter.
 
 ## Data Exploration
-The dataset contains categorical data which was converted to numerical using LabelEncoder. The relationships between all the features and the target were plotted using a heatmap 
+The dataset contains categorical data which was converted to numerical using LabelEncoder. The relationships between all the features and the target were plotted using a heatmap.
+<p align="center">
 ![image](https://user-images.githubusercontent.com/85885666/233009809-8488ee00-ccf0-48f3-a5b9-dec42ef4f5e3.png)
 As all the features does not have a strong correlation to the target, all of the features were used in the machine learning models.
+</p>
 
 ## Model Performance
 The models used in this dataset is Decision tree, kNN Classification and Random Forest classifier as there are no strong features correlated to the target.
@@ -16,9 +18,9 @@ GridSearchCV was used to search for the best parameters of each models
 |    Accuracy    |         88.7%         |         89.2%        |     93.4%    |
 
 The AUC score is used to see how well the models are able to classify binary cases as shown below.
-
+<p align="center">
 ![image](https://user-images.githubusercontent.com/85885666/233018459-0c68add1-25d8-424c-a3e7-ea33c909e90e.png)
-
+</p>
 The final model selected is the random forest classifier due to the high accuracy compared to the other models.
 
 
